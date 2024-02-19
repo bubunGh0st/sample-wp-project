@@ -1,0 +1,363 @@
+/*
+
+Theme Name: Homechakra
+Author: Toufique Mallick(Dev)
+Author URI: https://flyonit.com.au/
+Description: This theme has been designed for Homeochakra;
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: homeo
+
+*/
+
+@charset "utf-8";
+
+.clickable > a:hover {
+  cursor: pointer;
+}
+.unclickable > a:hover {
+  cursor: default !important;
+  color: #808080 !important;
+ }
+
+.team-title{
+  margin-bottom: 35px;
+}
+
+.vision-content .booknow{
+  padding: 5px 10px;
+  border-radius: 0px;
+  background: #ab2e2e;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.vision-content .booknow:hover{
+  background: #4c8c91;
+  color: #fff;
+  text-decoration: none;
+}
+.vision-content p.product{
+  border: 2px solid #4c8c91 !important;
+}
+.vision-content p.product del{
+  color: #000;
+}
+.vision-content p.product ins{
+  color: #ab2e2e;
+}
+.vision-content p.product a.button{
+  background-color: #ab2e2e;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 0;
+}
+.vision-content p.product a.button:hover{
+  background-color: #156b71;
+  color: #fff;
+}
+.vision-content p.product a.added_to_cart{
+  color: #ab2e2e;
+  text-decoration: none;
+  font-weight: 600;
+}
+.vision-content p.product a.added_to_cart:hover{
+  color: #156b71;
+  text-decoration: none;
+  font-weight: 600;
+}
+.swal2-actions button:nth-child(1){
+  background-color: #ab2e2e !important;
+  color: #fff;
+  border: 0;
+  border-radius: 0;  
+}
+.swal2-actions button:nth-child(1):hover{
+  background-color: #156b71 !important;
+  color: #fff;  
+}
+.swal2-actions button:nth-child(1):focus{
+  box-shadow: none !important;
+}
+.swal2-actions button:nth-child(2){
+  background-color: #ab2e2e !important;
+  color: #fff;
+  border: 0;
+  border-radius: 0;  
+}
+.swal2-actions button:nth-child(2):hover{
+  background-color: #156b71 !important;
+  color: #fff;  
+}
+.swal2-actions button:nth-child(2):focus{
+  box-shadow: none !important;
+}
+.services-btm-margin{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.homeopathy-tp-margin{
+  margin-top: 30px;
+}
+
+.homeopathy-btm-margin{
+  margin-bottom: 30px;
+}
+
+.homeopathy-img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Lazy Load Start */
+ .fadein, .fadein1, .fadein2, .fadein3 {
+        opacity: 0;
+        transition:  opacity 250ms;
+    }
+
+    .registerbox-outer-green:hover {
+        transition: max-width:350px 200ms;        
+    }
+/* Lazy Load End */
+
+
+/* Testimonial */
+
+.testimonailbg{
+  background-color: #f7f7f7;;
+}
+
+#testimonial{
+  margin-top: 30px;
+}
+
+#testimonial .heading{
+  padding: 30px 0 0 0;
+}
+
+#testimonial .author-tablecell-block{
+  font-size: 20px;
+  font-style: italic;
+}
+/* Testimonial */
+
+/*-- Team Content Button --*/
+.team-content .team-read-btn{
+  border: none;
+  background-color: #fff;
+  color: #ab2e2e;
+}
+.team-content .team-read-btn:hover{
+  color: #4c8c91;
+}
+/*-- Team Content Button --*/
+
+/*--Single Product Page Image--*/
+.product-img-pic img{
+  width: 100%;
+  height: auto;
+}
+/*--Single Product Page Image--*/
+
+
+/* # WooCommerce Cart Icon CSS with FontAwesome 5
+---------------------------------------------------------------------------------------------------- */
+
+.cart-icon {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    /* display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center; */
+}
+
+.cart-contents:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    content: "\f07a" !important;
+    font-size: 30px;
+    color: #156b71;
+}
+
+.cart-icon a{
+  text-decoration: none;
+}
+
+.cart-contents:hover {
+    text-decoration: none;
+}
+
+.cart-contents-count {
+  position: absolute;
+      top: 15px;
+    right: 1px;
+    transform: translateY(-105%) translateX(25%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  height: 22px;
+    width: 22px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+      background: #ab2e2e;
+      border-radius: 50%;
+      padding: 1px;  
+}
+
+/*===Floating Book Now Button===*/
+/*-----------------------------------*/
+.floating-bknow-btn {
+    position: fixed;
+    bottom: 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #ab2e2e;
+    color: #fff;
+    z-index: 10000;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.4);
+    padding: 10px 15px;
+    margin: 1rem 0;
+    right: 1rem;
+    font-size: 1rem;
+}
+.flting-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 17px;
+}
+.flting-btn:hover {
+  background: #4c8c91;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*===Register-Login===*/
+/*-----------------------------------*/
+.kivi-widget .nav-tabs {
+  justify-content: center;
+}
+
+.kivi-widget .nav-tabs .tab-item{
+  background: #ab2e2e;
+  border-top: 3px solid #166b72;
+  color: #fff;
+  margin: 5px;
+  border-radius: 25px !important;
+}
+.kivi-widget .nav-tabs .tab-item a {
+  color: #fff !important;
+}
+.kivi-widget .nav-tabs .tab-item.active {
+    color: #fff;
+    border-top: 3px solid #ab2e2e !important;
+    background: #166b72 !important;
+}
+.tab-link{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 75px;
+  height: 25px;
+}
+
+.inner-content .kivi-widget{
+  display: flex;
+  justify-content: center;
+}
+form#kivicare-register-form{
+  background: #166b72;
+  width: 600px;
+  padding: 30px 50px !important;
+  border-radius: 15px;
+  color: #fff;
+}
+.kivi-widget .form-group .form-label {
+  color: #fff !important;
+  font-size: 15px !important;
+  margin-bottom: 5px !important;
+  margin-top: 18px;
+}
+
+.kivi-widget form input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]){
+  color: #000 !important;
+  border: 1px solid #888 !important;
+  font-weight: 500;
+}
+.kivi-widget .select2-selection--single #select2-CountryCode-container{
+  width: 140px !important;
+  height: 20px !important;
+  padding: 0 0 !important;
+  line-height: 22px !important;
+}
+.kivi-widget .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000 !important;
+}
+.kivi-widget .iq-button.iq-button-primary {
+    background-color: #ab2e2e !important;
+    color: #fff;
+}
+.kivi-widget .iq-button.iq-button-primary:hover {
+    background-color: #ab2e2e !important;
+    opacity: 0.9;
+}
+.kivi-widget .iq-button{
+  padding: 14px 32px !important;
+  border-radius: 6px !important;
+}
+
+form#kivicare-register-form, form#kivicare-login-form {
+    text-align: left;
+    width: 600px;
+    background: #166b72;
+    padding: 30px 50px !important;
+    border-radius: 15px;
+}
+a {
+  color: #fff;
+}
+a:hover{
+  color: #fff;
+}
+
+.kivi-widget .alert-danger.alert-left{
+  padding: 30px 16px !important;
+  margin-top: 10px;
+}
+.kivi-widget .alert-success.alert-left {
+    border-left: 4px solid #156b71 !important;
+    background: #156b71 !important;
+    padding: 30px 16px !important;
+    margin-top: 10px;
+}
+
+.contact-address a{
+  color: #0d6efd;
+  text-decoration: underline;
+}
+.contact-address a:hover{
+  color: #0a58ca;
+}
+
+@media screen and (max-width: 767px){
+  .pmpro_login_wrap{
+    width: 80% !important;
+    }
+  .pmpro_lost_password_wrap{
+    width: 80% !important;
+  }
+  form.pmpro_form input[type=submit]{
+    width: 65%;
+  }
+}
+
